@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
-export default function SettingModalPage() {
+export default function ChangelogModalPage() {
   return (
     <div>
-      SettingModalPage
+      ChangelogModalPage
       <Link href='/profile' className='text-blue-500 w-full' replace>
         Profile
       </Link>
-      <Link href='/changelog' className='text-blue-500 w-full' replace>
-        Changelog
+      <Link href='/setting' className='text-blue-500 w-full' replace>
+        Setting
       </Link>
     </div>
   );

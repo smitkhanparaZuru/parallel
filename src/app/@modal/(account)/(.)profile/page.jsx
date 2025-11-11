@@ -7,6 +7,9 @@ export default function ProfileModalPage() {
       <Link href='/setting' className='text-blue-500 w-full' replace>
         Setting
       </Link>
+      <Link href='/changelog' className='text-blue-500 w-full' replace>
+        Changelog
+      </Link>
     </div>
   );
 }

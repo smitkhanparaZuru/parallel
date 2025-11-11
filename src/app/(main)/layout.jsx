@@ -18,6 +18,9 @@ export default function MainLayout({ children, modal }) {
       <Link href='/discover' className='text-blue-500 w-full'>
         Discover
       </Link>
+      <Link href='/changelog' className='text-blue-500 w-full'>
+        Changelog
+      </Link>
       {children}
       {/* {modal} */}
       {/* <div id='modal-root'></div> */}
